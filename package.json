@@ -1,0 +1,14 @@
+{
+  "name": "plusgrade",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+      "dev": "pnpm run -r --if-present dev",
+      "test": "pnpm run -r --if-present test",
+      "e2e": "pnpm run -r --if-present e2e"
+  },
+  "keywords": [],
+  "author": "Paul Chevilley",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5"
+}

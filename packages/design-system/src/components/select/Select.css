@@ -1,0 +1,5 @@
+.pg-select {
+  padding: 12px 6px;
+  border: 1px solid var(--primary-color);
+  background: white;
+}

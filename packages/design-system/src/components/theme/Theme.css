@@ -1,0 +1,13 @@
+.pg-theme {
+    --primary-color: rgb(27, 100, 239);
+    --on-primary-color: white;
+    --background-color: white;
+    --background-color-alt: rgb(0, 4, 20);
+    --on-background-color-alt: white;
+    --color: black;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+}

@@ -1,0 +1,20 @@
+.pg-button {
+  color: var(--on-primary-color);
+  background: var(--primary-color);
+  padding: 14px 28px;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+}
+
+form:invalid .pg-button,
+.pg-button:disabled {
+  cursor: initial;
+  opacity: 0.2;
+}
