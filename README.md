@@ -1,6 +1,8 @@
 # Income Tax Calculator
 
 This repository contains a small application for calculating income tax, built as a monorepo using pnpm workspaces.
+![image](https://github.com/user-attachments/assets/6229ae6e-3ee3-4496-a95a-757fcee70a9c)
+
 
 ## Project Structure
 
@@ -23,6 +25,15 @@ tax-calculator/
 * **Testing:** Vitest, Cypress (e2e)
 * **Build Tool:** Vite
 * **Monorepo Management:** pnpm workspaces
+
+## Prerequisites
+
+In order to run the API locally, please follow these instructions:
+
+```bash
+docker pull ptsdocker16/interview-test-server
+docker run --init -p 5001:5001 -it ptsdocker16/interview-test-server
+```
 
 ## Getting Started
 
