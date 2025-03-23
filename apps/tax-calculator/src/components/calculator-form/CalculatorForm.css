@@ -1,0 +1,18 @@
+.calculator-form {
+  display: grid;
+  grid-template-areas:
+    "income year"
+    "button button";
+  gap: 10px;
+  grid-template-columns: 1fr auto;
+}
+.calculator-form__button {
+  grid-area: button;
+}
+
+@media screen and (min-width: 600px) {
+  .calculator-form {
+    grid-template-areas: "income year button";
+    grid-template-columns: 1fr auto auto;
+  }
+}

@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  height: 42px;
+}
+
+.header {
+  background: var(--background-color-alt);
+  color: var(--on-background-color-alt);
+  padding: 5px 25px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+

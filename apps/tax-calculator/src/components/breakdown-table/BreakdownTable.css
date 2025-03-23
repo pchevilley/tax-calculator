@@ -1,0 +1,18 @@
+.breakdown-table {
+    font-size: 1rem;
+    text-align: right;
+    border-collapse: collapse;
+}
+
+.breakdown-table__row {}
+.breakdown-table__cell {
+    padding: 10px;
+    border-bottom: 1px solid var(--background-color-alt);
+}
+.breakdown-table__header-cell {
+    padding: 10px;
+    border: none;
+    background: var(--background-color-alt);
+    color: var(--on-background-color-alt);
+    font-weight: bold;
+}
